@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
+import Accordion from "./componens/Accordion/Accordion";
+import {Rating} from "./componens/Rating/Rating";
 
-function hello() {
-    //debugger
-    alert('Hello IT-KAMASUTRA')
-}
+// function sum (a: number, b: number) {
+//     //debugger
+//     alert(a+b)
+// }
+// sum(23, 12);
+// sum(100, 300);
 
-//hello();
 
 
 function App() {
@@ -14,63 +17,28 @@ function App() {
     console.log("App rendering")
     return (
         <div>
-            <AppTitle/>
-            <Rating/>
-            <Accordion/>
-            <Rating/>
+            <PageTitle title={"This is App component"}/>
+            <PageTitle title={"My friends"}/>
+            <Rating value={3}/>
+            <Accordion titleValue={"Good"}/>
+            <Accordion titleValue={"Programming"}/>
+            <Rating value={0}/>
+            <Rating value={1}/>
+            <Rating value={2}/>
+            <Rating value={3}/>
+            <Rating value={4}/>
+            <Rating value={5}/>
+            <Rating value={6}/>
         </div>
     );
 }
 
-function AppTitle() {
-    return <>This is App component</>
+function PageTitle(props: any) {
+    debugger
+    return <h1>{props.title}</h1>
 }
-
-function Rating() {
-    //debugger
-    console.log("Rating rendering")
-    return (<>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-        </>
-    );
-}
-
-function Star() {
-    console.log("Star rendering")
-    return <div>star</div>
-
-}
-
-function Accordion() {
-    console.log("Accordion rendering")
-    return (<>
-            <AccordionTitle/>
-            <AccordionBody/>
-        </>
-    );
-}
-
-function AccordionTitle() {
-    console.log("AccordionTitle rendering")
-    return <div>
-        <h3> Menu </h3>
-    </div>
-}
-
-function AccordionBody() {
-    console.log("AccordionBody rendering")
-    return <div>
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-        </ul>
-    </div>
-}
+// function Accordion(props: any) {
+//     return <h1>{props.title}</h1>
+// }
 
 export default App;
