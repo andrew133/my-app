@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dae200f-505b-4357-afbd-45f20e277a4d" name="Changes" comment="Type">
+    <list default="true" id="9dae200f-505b-4357-afbd-45f20e277a4d" name="Changes" comment="collapsed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componens/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/componens/Accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componens/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/componens/Rating/Rating.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../it-incubator-todolist-ts-48" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -69,7 +66,7 @@
       <workItem from="1634642966389" duration="3674000" />
       <workItem from="1634697294214" duration="5435000" />
       <workItem from="1634727980717" duration="8664000" />
-      <workItem from="1634784170061" duration="6310000" />
+      <workItem from="1634784170061" duration="7674000" />
     </task>
     <task id="LOCAL-00001" summary="star">
       <created>1634702864623</created>
@@ -92,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634787553550</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="collapsed">
+      <created>1634799643353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634799643353</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +120,7 @@
     <MESSAGE value="02" />
     <MESSAGE value="star" />
     <MESSAGE value="Type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Type" />
+    <MESSAGE value="collapsed" />
+    <option name="LAST_COMMIT_MESSAGE" value="collapsed" />
   </component>
 </project>
